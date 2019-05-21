@@ -6,7 +6,7 @@
   margin: 0 auto;
 }
 
-@mixin btn($bg: $red, $two-button: false) {
+@mixin btn($bg: $red, $two-button: false, $hover: false) {
   width: 225px;
   border-radius: 3px;
   background-color: transparent;
@@ -36,6 +36,11 @@
     &:first-child {
       margin-right: 25px;
     }
+  }
+
+  @if $hover == true {
+    background-color: $bg;
+    border: 2px solid $bg;
   }
 }
 
