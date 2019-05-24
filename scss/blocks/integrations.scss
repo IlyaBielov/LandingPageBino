@@ -1,0 +1,83 @@
+.integrations {
+  background-color: $white-gray;
+  padding: 140px 0;
+
+  p {
+    font-size: 14px;
+    line-height: 29px;
+    margin: 20px 0;
+    text-align: center;
+    color: $advantages-gray;
+  }
+
+  .integrations__divider {
+    @include divider($advantages-gray);
+  }
+
+  .integrations__title {
+    color: $gray;
+    font-size: 36px;
+    letter-spacing: 3.6px;
+    font-family: "Source Sans Pro";
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  .integrations__block {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 50px;
+  }
+
+  .integrations__element {
+    flex-basis: 18%;
+    height: 100px;
+    box-shadow: 0 1px 3px rgba(31, 31, 31, 0.09);
+    background-color: $white;
+    margin: 15px 0;
+    display: flex;
+    justify-content: center;
+
+    span {
+      align-self: center;
+    }
+
+    img {
+      max-width: 100%;
+    }
+  }
+}
+
+@media (max-width: 980px) {
+  .integrations {
+    padding: 50px 0;
+
+    .integrations__block {
+      justify-content: center;
+    }
+
+    .integrations__element {
+      flex-basis: 30%;
+      margin: 30px 1.5%;
+    }
+  }
+}
+
+@media (max-width: 580px) {
+  .integrations {
+    .integrations__element {
+      flex-basis: 45%;
+      margin: 30px 2.5%;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .integrations {
+    .integrations__element {
+      flex-basis: 100%;
+      margin: 10px 0;
+    }
+  }
+}
