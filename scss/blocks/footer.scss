@@ -1,0 +1,39 @@
+.footer {
+  background-color: $service-bg;
+  padding: 35px 0;
+
+  .footer__wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  p {
+    opacity: 0.75;
+    color: $advantages-gray;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 600;
+  }
+}
+
+@media (max-width: 580px) {
+  .footer {
+    .footer__wrap {
+     justify-content: center;
+     text-align: center;
+    }
+
+    .footer__left {
+      flex-basis: 100%;   
+    }
+
+    .footer__right {
+      flex-basis: 100%;   
+    }
+
+    .footer__socials {
+      justify-content: center;
+    }
+  }
+}

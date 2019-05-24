@@ -5,3 +5,28 @@
 @import "fonts";
 @import "mixins";
 @import "core";
+
+@import "animations.scss";
+
+@import "./blocks/section-top.scss";
+@import "./blocks/menu.scss";
+@import "./blocks/buttons.scss";
+@import "./blocks/divider.scss";
+@import "./blocks/section-wrap.scss";
+@import "./blocks/advantages.scss";
+@import "./blocks/history.scss";
+@import "./blocks/service.scss";
+@import "./blocks/recent.scss";
+@import "./blocks/case-study.scss";
+@import "./blocks/idea.scss";
+@import "./blocks/counts.scss";
+@import "./blocks/price.scss";
+@import "./blocks/team.scss";
+@import "./blocks/integrations.scss";
+@import "./blocks/blog.scss";
+@import "./blocks/keep.scss";
+@import "./blocks/free.scss";
+@import "./blocks/socials.scss";
+@import "./blocks/footer.scss";
+@import "./blocks/arrow-up.scss";
+

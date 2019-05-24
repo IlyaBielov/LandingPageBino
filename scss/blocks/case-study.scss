@@ -1,0 +1,45 @@
+.case-study {
+  background-color: $white-gray;
+  padding: 140px 0;
+
+  p {
+    font-size: 14px;
+    line-height: 29px;
+    margin: 20px 0;
+    text-align: center;
+    color: $advantages-gray;
+  }
+
+  .case-study__divider {
+    @include divider($advantages-gray);
+  }
+
+  .case-study__title {
+    color: $gray;
+    font-size: 36px;
+    letter-spacing: 3.6px;
+    font-family: "Source Sans Pro";
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  .case-study__block {
+    display: flex;
+    align-items: center;
+    margin-top: 60px; 
+  }
+
+  .case-study__left {
+    flex-basis: 665px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .case-study__right {
+
+    img {
+      margin-left: -80px;
+    }
+  }
+
+}
