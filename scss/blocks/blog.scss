@@ -1,6 +1,6 @@
 .blog {
   background-color: $white-gray;
-  padding: 140px 0;
+  padding: 140px 0 0;
   border-top: 1px solid #d8d9db;
 
   p {
@@ -142,7 +142,7 @@
 
 @media (max-width: 1150px) {
   .blog {
-    padding: 50px 0;
+    padding: 50px 0 0;
 
     .blog__element {
       flex-basis: 100%;
